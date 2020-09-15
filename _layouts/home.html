@@ -1,0 +1,10 @@
+﻿---
+layout : default
+---
+<ul >
+<header> <img src ="{{'/assets/images/Batman-Logo.png' | relative_url }}"> </header >
+{% for post in site.posts %}
+    <li><a href ="{{ post.url | relative_url }} "> {{ post.title }}</a></li>
+    <link rel =" stylesheet " href ="{{'/assets/css/styles.scss' }}">
+{% endfor %}
+</ul >
