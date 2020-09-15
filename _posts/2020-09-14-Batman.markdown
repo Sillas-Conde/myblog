@@ -1,10 +1,10 @@
 ---
 layout: post
-title: " Novo Post "
+title: " Cássia Conde "
 date: 2020-09-14 11:14:49 -0500
 categories: jekyll update
 ---
 
-Este é um novo post
-
+Nós te amamos Mamis
+Esse site é seu, por enquanto
 # Novo post
