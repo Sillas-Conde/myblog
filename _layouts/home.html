@@ -2,9 +2,25 @@
 layout: default
 ---
 <ul >
-<header> <img src ="{{'/assets/images/WM.jpg' | relative_url }}"> </header >
+<header>
+    <img src ="{{'/assets/images/WM.jpg' | relative_url }}"> 
+</header >
 {% for post in site.posts %}
     <li><a href ="{{ post.url | relative_url }} "> {{ post.title }}</a></li>
     <link rel =" stylesheet " href ="{{'/assets/css/styles.scss' | relative_url}}">
 {% endfor %}
+<body>
+    <header id = "Cabeçalho">
+        <h1>Título da Home</h1>
+    </header>
+    <nav id= "Liks">
+        
+    </nav>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
 </ul >
