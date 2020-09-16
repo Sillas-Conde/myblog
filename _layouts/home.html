@@ -1,17 +1,19 @@
 ﻿---
 layout: default
 ---
-<link rel =" stylesheet " type="text/scss" href ="{{'/assets/css/styles.scss' | relative_url}}">
-<ul >
+<link rel =" stylesheet " type="text/css" href ="{{'/assets/css/styles.scss' | relative_url}}">
+
 <header id="Titulo_header">
     <title> Blog pessoal do Sillax </title>
     <h1>Blog pessoal do Sillax</h1>
     <img src ="{{'/assets/images/G-OLA.gif' | relative_url }}"> 
 </header >
+<ul >
 <nav id="Posts">
     {% for post in site.posts %}
         <li><a href ="{{ post.url | relative_url }} "> {{ post.title }}</a></li>
     {% endfor %}
+</ul>
 </nav>
 <body>
     <header id = "Titulo_Body">
@@ -53,4 +55,3 @@ layout: default
         Copyright @2020
     </footer>
 </body>
-</ul >
