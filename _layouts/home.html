@@ -2,25 +2,54 @@
 layout: default
 ---
 <ul >
-<header>
-    <img src ="{{'/assets/images/WM.jpg' | relative_url }}"> 
+<header id="Titulo_header">
+    <title> Blog pessoal do Sillax </title>
+    <img src ="{{'/assets/images/G-OLA.gif' | relative_url }}"> 
 </header >
-{% for post in site.posts %}
+<nav id="Posts">
+    {% for post in site.posts %}
     <li><a href ="{{ post.url | relative_url }} "> {{ post.title }}</a></li>
     <link rel =" stylesheet " href ="{{'/assets/css/styles.scss' | relative_url}}">
 {% endfor %}
+</nav>
 <body>
-    <header id = "Cabeçalho">
-        <h1>Título da Home</h1>
+    <header id = "Titulo_Body">
+        <h1>Título do Corpo</h1>
     </header>
-    <nav id= "Liks">
-        
-    </nav>
-    <main>
 
+    <main>
+        <section>
+            <article>
+                <header>
+                    <h1>POSTAGEM 1</h1>
+                    <p>Frase legal 1</p>
+                </header>
+                <p>Frase legal 2</p>
+                <img src ="{{'/assets/images/BL.jpg' | relative_url }}">
+                <footer>
+                    Frase legal 3
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <h1>POSTAGEM 2</h1>
+                    <p>Frase legal 4</p>
+                </header>
+                <p>Frase legal 5</p>
+                <footer>
+                    Frase legal 6
+                </footer>
+            </article>
+        </section>
+        <section>
+            <p>Seção 2</p>
+        </section>
+        <aside>
+            <p>Pra que serve o Aside?</p>
+        </aside>
     </main>
     <footer>
-
+        Copyright @2020
     </footer>
 </body>
 </ul >
