@@ -9,11 +9,11 @@ layout: default
     <img src ="{{'/assets/images/G-OLA.gif' | relative_url }}"> 
 </header >
 <nav id="Posts">
-<ul>
-    {% for post in site.posts %}
-        <li><a href ="{{ post.url | relative_url }} "> {{ post.title }}</a></li>
-    {% endfor %}
-</ul>
+    <ul>
+        {% for post in site.posts %}
+            <li><a href ="{{ post.url | relative_url }} "> {{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
 </nav>
 <body>
     <header id = "Titulo_Body">
