@@ -4,13 +4,15 @@ layout: default
 <ul >
 <header id="Titulo_header">
     <title> Blog pessoal do Sillax </title>
+    <h1>Blog pessoal do Sillax</h1>
     <img src ="{{'/assets/images/G-OLA.gif' | relative_url }}"> 
 </header >
+
+    <link rel =" stylesheet " href ="{{'/assets/css/styles.scss' | relative_url}}">
 <nav id="Posts">
     {% for post in site.posts %}
-    <li><a href ="{{ post.url | relative_url }} "> {{ post.title }}</a></li>
-    <link rel =" stylesheet " href ="{{'/assets/css/styles.scss' | relative_url}}">
-{% endfor %}
+        <li><a href ="{{ post.url | relative_url }} "> {{ post.title }}</a></li>
+    {% endfor %}
 </nav>
 <body>
     <header id = "Titulo_Body">
