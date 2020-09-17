@@ -8,10 +8,8 @@ layout: default
 </header >
 <nav id="Posts">
     <ul>
-        <h4>Clique em algum post abaixo !</h4>
-        <br>
         {% for post in site.posts %}
-            <li><a href ="{{ post.url | relative_url }} "> {{ post.title }}</a></li>
+            <li><a href ="{{ post.url | relative_url }} "> <hr>{{ post.title }}</a></li>
         {% endfor %}
     </ul>
 </nav>
