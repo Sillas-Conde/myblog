@@ -8,6 +8,6 @@ categories: jekyll update
 Não,
 Espero ter ajudado
 
-!(https://media1.tenor.com/images/1fc787673b69422088bb30476116a7d4/tenor.gif?itemid=15497728)
+![](https://media1.tenor.com/images/1fc787673b69422088bb30476116a7d4/tenor.gif?itemid=15497728)
 
 
