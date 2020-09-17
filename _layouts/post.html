@@ -5,14 +5,14 @@ layout: default
     <h1>Blog pessoal do Sillax</h1>
 </header >
 <header id = "Titulo_Body">
-    <h1 href ="{{ post.url | relative_url }}"> {{ post.title }} </h1>
+    <p href ="{{ post.url | relative_url }}"> {{ post.title }} </p>
 </header>
 <body>
     <main>
         <section class= "Secao_1">
             <article class= "art_2">
                 <header>
-                    <h1><p> {{ post.title }} </p></h1>
+                    <p> {{ page.title }} </p>
                 </header> 
                 <body>
                     {{content}}
