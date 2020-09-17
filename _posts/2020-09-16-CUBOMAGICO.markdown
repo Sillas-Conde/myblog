@@ -7,4 +7,4 @@ categories: jekyll update
 
 Recorde Mundial de Cubo mágico é do chinês Yusheng Du (杜宇生), que resolveu o Cubo em 3.47 segundos.
 
-# Novo post
+# Clique aqui para ver o vídeo do recorde
