@@ -3,10 +3,10 @@ layout: post
 title: "Novo Filme do Batman"
 date: 2020-09-16 11:14:49 -0500
 categories: jekyll update
+img: "{{'/assets/images/BM.jpg' | relative_url }}"
 ---
 
 Novo Filme do Batman dirigido pelo diretor Matt Reeves terá o herói dublado pelo mesmo dublador de Bob Esponja
 
 [# Clique aqui para ir para assistir o trailer do filme dublado](https://www.youtube.com/watch?v=IB4Tkgo8_Lc)
 
-!(/assets/images/BM.jpg)
