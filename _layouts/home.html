@@ -4,11 +4,12 @@ layout: default
 
 
 <header id="Titulo_header">
-    <h1>Blog pessoal do Sillax</h1><br>
-    <h4>Clique em algum post abaixo !</h4>
+    <h1>Blog pessoal do Sillax</h1>
 </header >
 <nav id="Posts">
     <ul>
+        <h4>Clique em algum post abaixo !</h4>
+        <br>
         {% for post in site.posts %}
             <li><a href ="{{ post.url | relative_url }} "> {{ post.title }}</a></li>
         {% endfor %}
