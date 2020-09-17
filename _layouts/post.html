@@ -1,7 +1,6 @@
 ﻿---
 layout: default
 ---
-{{ content }}
 <header id="Titulo_header">
     <title> Blog pessoal do Sillax </title>
     <h1>Blog pessoal do Sillax</h1>
@@ -17,20 +16,8 @@ layout: default
     <header id = "Titulo_Body">
         <h1><p> Se o Planeta é redondo, quais são os seus quatro cantos?</p></h1>
     </header>
-
     <main>
         <section class= "Secao_1">
-            <article class= "art_1">
-                <header>
-                    <h1>Novo Filme do Batman</h1>
-                    <p>Dirigido por Matt Reeves</p>
-                </header>
-                <p>Será dublado por Bob Esponja</p>
-                <img src ="{{'/assets/images/BL.jpg' | relative_url }}">
-                <footer>
-                    Somente em 2021
-                </footer>
-            </article>
             <article class= "art_2">
                 <header>
                     <h1>Não saia de casa, evite aglomeração</h1>
@@ -38,12 +25,13 @@ layout: default
                 </header>
                 <img src ="{{'/assets/images/Harold.jpg' | relative_url }}"> 
                 <p>Não se arrisque, use máscara</p>
+                <body>
+                    {{content}}
+                </body>
                 <footer>
-                    
+                    USAR?
                 </footer>
             </article>
-        </section>
-        <section class= "Secao_2">
         </section>
         <aside>
             <h2>Tenha um Bom Dia !</h2> 
@@ -53,6 +41,6 @@ layout: default
     <img src ="{{'/assets/images/BOY.gif' | relative_url }}">
     <footer id= "Rodape">
         Copyright @2020
+        <p> Postado no dia {{ page.date }} na categoria {{ page.categories }} </p>
     </footer>
 </body>
-<p> Postado no dia {{ page.date }} na categoria {{ page.categories }} </p>
