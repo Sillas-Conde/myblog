@@ -5,16 +5,9 @@ layout: default
     <title> Blog pessoal do Sillax </title>
     <h1>Blog pessoal do Sillax</h1>
 </header >
-<nav id="Posts">
-    <ul>
-        {% for post in site.posts %}
-            <li><a href ="{{ post.url | relative_url }} "> {{ post.title }}</a></li>
-        {% endfor %}
-    </ul>
-</nav>
 <body>
     <header id = "Titulo_Body">
-        <h1><p> {{post.title}}</p></h1>
+        <h1><p> {{ post.title }} </p></h1>
     </header>
     <main>
         <section class= "Secao_1">
